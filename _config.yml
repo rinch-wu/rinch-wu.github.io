@@ -103,7 +103,7 @@ theme: fluid
 deploy:
   type: git
   repo: git@github.com:rinch-wu/rinch-wu.github.io.git
-  branch: gh-pages
+  branch: main
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
