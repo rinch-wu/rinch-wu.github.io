@@ -1,0 +1,19 @@
+# ==========================
+# Hexo Theme Fluid 覆盖配置
+# ==========================
+
+# 导航菜单
+nav:
+  - { key: "home", link: "/", icon: "ri-home-line" }
+  - { key: "archives", link: "/archives/", icon: "ri-archive-line" }
+  - { key: "tags", link: "/tags/", icon: "ri-price-tag-3-line" }
+  - { key: "categories", link: "/categories/", icon: "ri-menu-2-line" }
+  - { key: "about", link: "/about/", icon: "ri-user-3-line" }
+
+# 首页横幅
+index:
+  banner_img: https://api.dujin.org/bing/1920.php
+
+# 文章页配置
+post:
+  banner_img: https://api.dujin.org/bing/1920.php
