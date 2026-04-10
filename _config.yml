@@ -95,8 +95,20 @@ include:
 exclude:
 ignore:
 
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
 # Theme
-theme: fluid
+theme: butterfly
+
+# Butterfly theme configuration
+tags:
+  enable: true
+  per_page: 10
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
