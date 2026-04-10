@@ -3,8 +3,10 @@ title: Hello World
 date: 2026-04-10 15:00:00
 tags:
   - 随笔
+  - 日常
 categories:
   - 日常
+cover: https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80
 ---
 
 欢迎来到我的个人博客！
@@ -13,7 +15,7 @@ categories:
 
 ## 关于这个博客
 
-这个博客使用 [Hexo](https://hexo.io/) 搭建，部署在 GitHub Pages 上。主题选择了现代简洁的 Fluid，希望能为读者带来良好的阅读体验。
+这个博客使用 [Hexo](https://hexo.io/) 搭建，部署在 GitHub Pages 上。主题选择了现代简洁的 Butterfly，希望能为读者带来良好的阅读体验。
 
 ## 未来计划
 
@@ -21,4 +23,4 @@ categories:
 - 记录学习过程中的心得体会
 - 偶尔分享一些生活中的有趣事物
 
-感谢你的访问，敬请期待更多内容！
+感谢你的访问，敬请期待更多内容！✨

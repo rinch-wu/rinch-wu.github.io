@@ -12,7 +12,7 @@ nav:
   logo:
   display_title: true
   display_post_title: true
-  fixed: false
+  fixed: true
 
 menu:
   首页: / || fas fa-home
@@ -26,7 +26,7 @@ menu:
 # --------------------------------------
 
 code_blocks:
-  theme: darker
+  theme: pale night
   macStyle: true
   height_limit: false
   word_wrap: false
@@ -51,10 +51,13 @@ avatar:
 
 disable_top_img: false
 
-default_top_img:
+# 顶部默认背景图
+default_top_img: https://raw.githubusercontent.com/jerryc127/CDN/master/img/top_img/default.jpg
 
-index_img:
+# 首页顶部图
+index_img: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80
 
+# 归档页顶部图
 archive_img:
 
 tag_img:
@@ -67,13 +70,21 @@ category_per_img:
 
 footer_img: false
 
+# 网站背景 - 使用渐变色
 background:
 
+# 文章默认封面图
 cover:
   index_enable: true
   aside_enable: true
   archives_enable: true
   default_cover:
+    - https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80
+    - https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80
+    - https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80
+    - https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80
+    - https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800&q=80
+    - https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80
 
 error_img:
   flink: /img/friend_404.gif
@@ -106,6 +117,7 @@ post_meta:
 index_site_info_top:
 index_top_img_height:
 
+# 首页打字机副标题
 subtitle:
   enable: true
   effect: true
@@ -114,6 +126,7 @@ subtitle:
   sub:
     - '记录学习，分享技术'
     - '记录生活，留住感动'
+    - 'Stay hungry, stay foolish'
 
 index_layout: 3
 
@@ -186,7 +199,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: '记录学习，分享技术'
+    description: '记录学习，分享技术 ✨'
     button:
       enable: true
       icon: fab fa-github
@@ -207,7 +220,7 @@ aside:
   card_tags:
     enable: true
     limit: 40
-    color: false
+    color: true
     orderby: random
     order: 1
   card_archives:
@@ -282,7 +295,7 @@ math:
 # Search
 search:
   use: local_search
-  placeholder:
+  placeholder: '搜索文章...'
 
   local_search:
     preload: false
@@ -314,10 +327,10 @@ cdn:
   use:
   custom_url:
 
-lightbox: false
+lightbox: true
 
-random_cover: false
+random_cover: true
 
-highlight_theme: darker
+highlight_theme: pale night
 
 highlight_shrink: false
