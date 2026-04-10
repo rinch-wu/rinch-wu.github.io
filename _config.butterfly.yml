@@ -52,10 +52,10 @@ avatar:
 disable_top_img: false
 
 # 顶部默认背景图
-default_top_img: https://raw.githubusercontent.com/jerryc127/CDN/master/img/top_img/default.jpg
+default_top_img: /img/top-banner.jpg
 
 # 首页顶部图
-index_img: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80
+index_img: /img/top-banner.jpg
 
 # 归档页顶部图
 archive_img:
@@ -79,12 +79,12 @@ cover:
   aside_enable: true
   archives_enable: true
   default_cover:
-    - https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80
-    - https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80
-    - https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80
-    - https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80
-    - https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800&q=80
-    - https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80
+    - /img/cover1.jpg
+    - /img/cover2.jpg
+    - /img/cover3.jpg
+    - /img/cover4.jpg
+    - /img/cover5.jpg
+    - /img/cover6.jpg
 
 error_img:
   flink: /img/friend_404.gif

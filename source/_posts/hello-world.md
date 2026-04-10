@@ -6,7 +6,7 @@ tags:
   - 日常
 categories:
   - 日常
-cover: https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80
+cover: /img/cover1.jpg
 ---
 
 欢迎来到我的个人博客！
